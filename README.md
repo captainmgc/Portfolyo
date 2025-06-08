@@ -22,15 +22,15 @@ Modern, responsive ve kullanıcı dostu bir kişisel portfolyo web sitesi. React
 *Modern tasarım ve kolay navigasyon*
 
 ### Projeler Sayfası
-![Projeler](ss/ss%20(2).png)
+![Projeler](ss/ss%20(3).png)
 *Proje kartları ve teknoloji etiketleri*
 
 ### Hakkımda Sayfası
-![Hakkımda](ss/ss%20(3).png)
+![Hakkımda](ss/ss%20(4).png)
 *Kişisel bilgiler ve teknik beceriler*
 
 ### İletişim Sayfası
-![İletişim](ss/ss%20(4).png)
+![İletişim](ss/ss%20(2).png)
 *İletişim formu ve sosyal medya bağlantıları*
 
 ## 🛠️ Teknolojiler
