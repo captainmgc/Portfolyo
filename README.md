@@ -168,11 +168,6 @@ export default {
 
 Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
 
-## 📞 İletişim
-
-- **Email:** ornek@email.com
-- **LinkedIn:** [linkedin.com/in/username](https://linkedin.com/in/username)
-- **GitHub:** [github.com/username](https://github.com/username)
 
 ## 🙏 Teşekkürler
 
