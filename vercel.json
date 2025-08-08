@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "nodeVersion": "20.x",
+  "env": {
+    "RATE_LIMIT_WINDOW": "60",
+    "RATE_LIMIT_MAX": "10"
+  }
+}
