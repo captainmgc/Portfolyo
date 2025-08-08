@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --orbit-speed-inner: 6s;
+  --orbit-speed-middle: 12s;
+  --orbit-speed-outer: 20s;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-[#020617] text-white antialiased;
+  background: radial-gradient(60% 60% at 50% 20%, #0b1020 0%, #050712 60%, #020617 100%);
+}
+
+/* Starfield fallback using CSS (canvas preferred) */
+.bg-stars {
+  background-image: radial-gradient(2px 2px at 20% 30%, rgba(255,255,255,0.35) 0, transparent 40%),
+    radial-gradient(1.5px 1.5px at 70% 80%, rgba(255,255,255,0.25) 0, transparent 40%),
+    radial-gradient(1px 1px at 40% 60%, rgba(255,255,255,0.25) 0, transparent 40%);
+  background-repeat: no-repeat;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Accessible focus styles */
+:focus-visible {
+  outline: 2px dashed #0ea5a4;
+  outline-offset: 3px;
+}
